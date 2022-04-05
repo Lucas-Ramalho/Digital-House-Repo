@@ -1,6 +1,7 @@
 # Formulário HTML/CSS
 
-GitHub Page: https://lucas-ramalho.github.io/Form/Checkpoint%20II/
+GitHub Page: https://lucas-ramalho.github.io/Digital-House-Repo
+/Checkpoint%20II/
 
 Atividade prática desenvolvida na aula de FrontEnd do curso de Certified Tech Developer da Digital House, ministrado pela professora Mari Rocha
 
