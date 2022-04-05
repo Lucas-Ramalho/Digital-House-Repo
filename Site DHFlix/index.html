@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css-index/style.css">
+    <title>DH Flix</title>
+</head>
+
+<body>
+
+    <header id=header class="fixed-sticky">
+    <!-- Barra de navegação -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="#"><img class="img-logo" src="./img/logo-lg.png" alt="logo" height="48" width="168"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Itens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre nós</a>
+                    </li>
+                    <li class="nav-item" data-toggle="modal" data-target="#ExemploModalCentralizado">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </nav>
+
+
+        </div>
+    </header>
+
+  <!-- Modal -->
+  <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img class="modal-image img-fluid" src="./img/logo-lg.png" alt="logo-formulario">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+    
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="***********">
+                </div>
+                
+              </form>
+        </div>
+        <div class="modal-footer">
+          
+          <button type="submit" class="btn btn-success btn-block">Entrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="banner">
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="banner d-flex flex-column justify-content-center align-items-center p-5">
+
+          <h1>DH FLIX</h1>
+          <h4 class="subtitulo">Confira a maior coletanea de filmes que a Digital House tem a oferecer</h4>
+          <button type ="button" class="btn btn-success">Explorar</button>
+
+          </div>
+      </div>
+      </div>
+  </div>
+
+  <div class="container">
+    <div id="itens">
+      <h1 >Itens</h1>
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+      
+          <div class="card">
+            <div class="img-size">
+              <img class="card-img-top" src="./img/joker.png" alt="Imagem de capa do card">
+            </div>
+            
+            <div class="card-block">
+              <h5 class="card-title">JOKER</h5>
+              <p class="card-text">
+                Baseado no personagem de mesmo nome da DC Comics, o filme é estrelado por Joaquin Phoenix como o Coringa. 
+                Joker é ambientado em 1981, e representa Arthur Fleck, um comediante de stand-up fracassado, que é levado à 
+                loucura e se envolve em uma vida de crimes e caos em Gotham City.</p>
+              <a href="./html/info1.html" class="btn btn-success btn-block btn-saiba-mais">Saiba mais</a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+      
+          <div class="card">
+            <div class="img-size">
+              <img class="card-img-top" src="./img/dora.png" alt="Imagem de capa do card">
+            </div>
+            
+            <div class="card-block">
+              <h5 class="card-title">Dora</h5>
+              <p class="card-text">
+                Sempre a exploradora, Dora rapidamente se encontra liderando Botas (seu melhor amigo, um macaco), 
+                seu primo Diego e um grupo de adolescentes em uma aventura para salvar seus pais e resolver o mistério 
+                impossível por trás de uma civilização inca perdida.
+              </p>
+              <a href="./html/info2.html" class="btn btn-success btn-block btn-saiba-mais">Saiba mais</a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+      
+          <div class="card">
+            <div class="img-size">
+              <img class="card-img-top" src="./img/cap-marvel.png" alt="Imagem de capa do card">
+            </div>
+            
+            <div class="card-block">
+              <h5 class="card-title">Capitã Marvel</h5>
+              <p class="card-text">
+                Em Capitã Marvel, Carol Danvers (Brie Larson) é uma ex-agente da Força Aérea norte-americana, 
+                que, sem se lembrar de sua vida na Terra, é recrutada pelos Kree para fazer parte de seu exército de elite.</p>
+              <a href="./html/info3.html" class="btn btn-success btn-block btn-saiba-mais">Saiba mais</a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+      
+          <div class="card">
+            <div class="img-size">
+              <img class="card-img-top" src="./img/thor.png" alt="Imagem de capa do card">
+            </div>
+           
+            <div class="card-block">
+              <h5 class="card-title">Thor</h5>
+              <p class="card-text">
+                O filme conta a história de Thor, o príncipe herdeiro de Asgard, banido à Terra e
+                 despojado de seus poderes depois que ele reinicia uma guerra antiga. Como seu irmão, Loki, 
+                 planeja tomar o trono para ele mesmo, Thor deve provar ser digno e recuperar seu martelo, o Mjöllnir.
+                </p>
+              <a href="./html/info4.html" class="btn btn-success btn-block btn-saiba-mais">Saiba mais</a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+      
+          <div class="card">
+            <div class="img-size">
+              <img class="card-img-top" src="./img/after.png" alt="Imagem de capa do card">
+            </div>
+           
+            <div class="card-block">
+              <h5 class="card-title">After</h5>
+              <p class="card-text">
+                After segue a história de autodescoberta e despertar sexual de Tessa Young, uma estudante de 18 anos, 
+                que sai de casa onde mora com a mãe, uma mulher autoritária e preconceituosa, 
+                para iniciar os seus estudos na universidade de Washington..
+              </p>
+              <a href="./html/info5.html" class="btn btn-success btn-block btn-saiba-mais">Saiba mais</a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+      
+          <div class="card">
+            <div class="img-size">
+              <img class="card-img-top" src="./img/1917.png" alt="Imagem de capa do card">
+            </div>
+           
+            <div class="card-block">
+              <h5 class="card-title">1917</h5>
+              <p class="card-text">
+                O filme conta a trajetória de dois jovens soldados que precisam entregar uma comunicação importantíssima 
+                para um batalhão: interrompam o ataque porque é uma armadilha. 
+                Na reflexão, falarei do valor da missão nas nossas vidas e também sobre o ... 
+                
+              </p>
+              <a href="./html/info6.html" class="btn btn-success btn-block btn-saiba-mais">Saiba mais</a>
+
+            </div>
+          </div>
+
+        </div>
+
+     
+        
+      </div>
+    </div>
+  </div> 
+
+
+
+</div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+  <footer class="bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>&copy Juan Evangelista</p>
+
+          <a href="https://github.com/juanevangelista1" target="_blank">
+            <img src="../img/icon-git.svg" alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/juan-evangelista-nascimento-493260143/?originalSubdomain=br"
+            target="_blank"
+          >
+            <img src="../img/icon-linkedin.svg" alt="" />
+          </a>
+          <p class="footer-descricao">Responsável pelo desenvolvimento da página de informações</p>
+        </div>
+        <div class="col">
+          <p>&copy Lucas Ramalho</p>
+
+          <a href="https://github.com/Lucas-Ramalho" target="_blank">
+            <img src="../img/icon-git.svg" alt="" />
+          </a>
+
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="../img/icon-linkedin.svg" alt="" />
+          </a>
+          <p class="footer-descricao">Responsável pelo desenvolvimento da página inicial e modal</p>
+        </div>
+        <div class="col">
+          <p> &copy Michaelle Lima</p>
+
+          <a href="https://github.com/michaellelima" target="_blank">
+            <img src="../img/icon-git.svg" alt="" />
+          </a>
+
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img src="../img/icon-linkedin.svg" alt="" />
+          </a>
+          <p class="footer-descricao">Responsável pelo desenvolvimento da página inicial e de informações</p>
+        </div>
+      </div>
+    </div>
+    <p class="footer-sobre">Checkpoint 3 desenvolvido em 2021</p>
+  </footer>
+
+</body>
+</html>

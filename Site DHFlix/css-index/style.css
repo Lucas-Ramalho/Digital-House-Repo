@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: #161515;
+}
+
+#banner .banner {
+  height: 85vh;
+  background-image: url(../img/bg-img.jpg);
+  background-attachment: fixed;
+}
+
+.banner h1 {
+  color: red;
+}
+
+.subtitulo {
+  text-align: center;
+  color: white;
+  padding-bottom: 25px;
+  font-size: 1.5rem;
+}
+
+.card {
+  display: inline-block;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+.card-block {
+  background-color: #e1e4e8;
+  padding: 20px 20px;
+}
+#itens h1 {
+  text-align: center;
+  padding: 15px;
+  font-size: 1.5rem;
+  color: #e1e4e8;
+}
+
+.card-text {
+  font-size: 0.75rem;
+}
+
+.card-title {
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin: 10px 0px;
+}
+
+.btn-saiba-mais {
+  margin-top: 15px;
+}
+
+.img-size {
+  height: 180px;
+  overflow: hidden;
+}
+
+header .container-fluid {
+  padding: 0px;
+  background-color: #e1e4e8;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  color: #e1e4e8;
+  padding: 40px 0;
+  border-top: #666666 1px solid;
+}
+
+.footer-descricao {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer-sobre {
+  text-align: center;
+  margin-top: 40px;
+  color: #666666;
+}
+
+/* .btn-success {
+    width: 20%;
+} */

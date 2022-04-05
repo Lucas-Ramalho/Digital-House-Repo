@@ -1,0 +1,88 @@
+/*CSS da página info */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.digital-house-body {
+  background-color: #161515;
+  color: #e1e4e8;
+}
+
+header {
+  margin-bottom: 2px;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  /* display: grid;
+  justify-content: space-between; */
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-center {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: transparent;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card-trailer {
+  margin: 0 auto;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+.trailer {
+  border-radius: 10px;
+  position: relative;
+  min-height: 700px;
+  min-width: 100%;
+}
+
+.bottom {
+  background-color: black;
+  color: white;
+}
+
+.col {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center;
+  position: space-between;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  color: #e1e4e8;
+  padding: 40px 0;
+  border-top: #666666 1px solid;
+}
+
+.footer-descricao {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.footer-sobre {
+  text-align: center;
+  margin-top: 40px;
+  color: #666666;
+}
